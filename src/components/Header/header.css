@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+  }
+  
+ 
+  .column.header {
+    float: left;
+    padding: 10px;
+    height: 30px; 
+  }
+
+  .column.header.left
+  {
+      padding-left: 65px;
+  }
+
+  .row 
+  {
+     
+  }
+  
+  .left {
+    width: 25%;
+  }
+  
+  .right {
+    width: 75%;
+    
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  /* Navigation part design starts */
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+   
+  } 
+
+  li {
+    float: left;
+  }
+
+  li a {
+    text-align: right;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 0px 16px;
+    text-decoration: none;
+    font-size: 1 rem;
+  }
+
+  .menus {
+    float: right;
+    clear: both;
+  }
+
+  li a:hover {
+    background-color: beige;
+  }
+
+  /* for the button type list item */
+
+  .bttn
+  {
+      border: 2px solid black;
+      border-radius: 15px;
+      margin-left: 120px;
+      padding: -20px;
+      
+
+  }
+
+  li.bttn {
+    padding: 5px;
+}
+  .bttn:hover
+  {
+      background-color: white;
+  }
+
+  .sideImage
+  {
+      margin-top: 0;
+      height: 80px;
+      width: auto;
+  }
+  

@@ -1,0 +1,116 @@
+
+
+* {
+    box-sizing: border-box;
+  }
+  
+ 
+  .column {
+    float: left;
+    padding: 10px;
+    /* height: 250px;  */
+  }
+
+ 
+  .leftb {
+    width: 40%;
+    padding-left : 95px;
+  
+  }
+
+
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 40px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
+  
+  
+  .rightb {
+    width: 60%;
+   
+    
+  }
+
+  .column.leftb h1{
+
+    font-size: 2.5rem;
+    font-weight: bold;
+
+  }
+
+
+  .column.leftb button{
+   
+      border-radius: 50px;
+      padding: 12px 55px 12px;
+      color: white;
+      background-color: blue;
+  }
+  
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+
+  .firstText
+  {
+
+    color: red;
+    
+
+  }
+
+  .socialIcon
+  {
+      margin-top: 180px;
+     
+  }
+
+  .socialIcon img{
+      height: 30px;
+      width: 30px;
+
+      border-radius: 50%;
+  }
+
+  .socialIcon a 
+  {
+    padding-right: 10px;
+  }
+
+
+  .randomText
+  {
+      color: gray;
+  }
+
+  .profileImage
+  {
+      border-radius: 50px;
+      height: 500px;
+  }
+
+  .row.banner 
+  {
+
+    height: 700px;
+  }
+
+
+
+
+  .innerLeft
+  {
+      width: 35%;
+  }
+
+  
+  .innerRight
+  {
+      width: 65%;
+  }
